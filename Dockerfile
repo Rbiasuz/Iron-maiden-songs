@@ -5,4 +5,6 @@ ADD datasets/ /code/
 
 WORKDIR /code
 
+RUN python -m pip install --upgrade pip
+
 RUN pip install -r requeriments.txt
