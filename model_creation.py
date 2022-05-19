@@ -91,3 +91,4 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 # Print the model summary
 model.summary()
 
+# Save model
